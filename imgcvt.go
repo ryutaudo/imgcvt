@@ -19,6 +19,7 @@ type ConvertParams struct {
 	To   string
 }
 
+// Image Converter
 func Convert(p ConvertParams) error {
 	flag.Parse()
 
